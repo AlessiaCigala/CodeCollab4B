@@ -17,7 +17,7 @@ public class GestoreBiblio
         Menu menu_p = new Menu();
         menu_p.addVoce("Aggiungi libro a Biblioteca", 1);
         menu_p.addVoce("Aggiungi Film a Biblioteca", 2);
-        menu_p.addVoce("", 3);
+        menu_p.addVoce("",3);
         menu_p.addVoce("",4);
         menu_p.addVoce("",5);
         menu_p.addVoce("",6);
@@ -25,6 +25,7 @@ public class GestoreBiblio
         menu_p.addVoce("",8);
         menu_p.addVoce("",9);
         menu_p.addVoce("",10);
+        menu_p.addVoce("",11);
         int scelta;
         do{
             scelta=menu_p.run();
